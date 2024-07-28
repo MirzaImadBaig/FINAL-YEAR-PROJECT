@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 # Sets the logging level to INFO, meaning it will capture and display informational messages.
 
-project_name = "Text_Summarizer"
+project_name = "EEG_analysis"
 
 list_of_files = [
     ".github/workflows/.gitkeep",                      # A placeholder file to ensure the workflows directory under .github is tracked by git. This is commonly used for CI/CD pipelines.
